@@ -60,7 +60,7 @@ const PRODUCTS = [
   },
   {
     id: 'cutter-1600',
-    name: 'ماكينة الإسلامية 1600 لقص الرخام والجرانيت',
+    name: 'ماكينة فكري 1600 لقص الرخام والجرانيت',
     category: 'saws',
     categoryName: 'مناشير ومعدات قص',
     img: '/cutter-1600.jpg',
@@ -1140,7 +1140,7 @@ export default function App() {
                 <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>جلاية 10 رأس طولات</a></li>
                 <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ونش الزرافة والعلم</a></li>
                 <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ونش ساحة 100 طن</a></li>
-                <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ماكينة الإسلامية 1600</a></li>
+                <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ماكينة فكري 1600</a></li>
               </ul>
             </div>
 
