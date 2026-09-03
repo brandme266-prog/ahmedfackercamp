@@ -60,7 +60,7 @@ const PRODUCTS = [
   },
   {
     id: 'cutter-1600',
-    name: 'ماكينة فكري 1600 لقص الرخام والجرانيت',
+    name: 'ماكينة الإسلامية 1600 لقص الرخام والجرانيت',
     category: 'saws',
     categoryName: 'مناشير ومعدات قص',
     img: '/cutter-1600.jpg',
@@ -74,16 +74,16 @@ const PRODUCTS = [
   },
   {
     id: 'hero-banner',
-    name: 'منشار حمام الزيت الحصري (ابتكار فكري جروب)',
+    name: 'منشار حمام الزيت الحصري (ابتكار الشركة الإسلامية)',
     category: 'saws',
     categoryName: 'ابتكارات حصرية',
     img: '/hero-banner.jpg',
-    desc: 'الابتكار الذي طوره المهندس أحمد فكري شخصياً لمنع تآكل التروس وإطالة عمر المنشار بنسبة 300% وتخفيض فواتير الصيانة والأعطال المفاجئة.',
+    desc: 'الابتكار الذي طوره فريق الخبراء بالشركة الإسلامية لمنع تآكل التروس وإطالة عمر المنشار بنسبة 300% وتخفيض فواتير الصيانة والأعطال المفاجئة.',
     specs: [
       { label: 'نظام التشحيم', val: 'حمام زيت دائم معزول بالكامل' },
       { label: 'مستوى الضجيج', val: 'أقل ضوضاء بنسبة 40%' },
       { label: 'الاستهلاك', val: 'توفير فائق في الطاقة والمياه' },
-      { label: 'براءة التصميم', val: 'مسجل ومعتمد باسم فكري جروب' }
+      { label: 'براءة التصميم', val: 'مسجل ومعتمد باسم الشركة الإسلامية' }
     ]
   }
 ];
@@ -91,24 +91,24 @@ const PRODUCTS = [
 const ARTICLES = [
   {
     id: 'achievements',
-    title: 'أكبر إنجازات المهندس أحمد فكري في النهوض بصناعة الرخام والجرانيت وتحدي الاستيراد الأوروبي',
+    title: 'مسيرة وإنجازات الشركة الإسلامية في النهوض بصناعة الرخام والجرانيت وتحدي الاستيراد الأوروبي',
     category: 'history',
     categoryName: 'إنجازات وريادة',
     date: '15 فبراير 2026',
     readTime: '6 دقائق قراءة متعمقة',
-    author: 'المهندس أحمد فكري',
-    authorRole: 'مؤسس فكري جروب وخبير هندسة الماكينات الثقيلة',
+    author: 'الشركة الإسلامية',
+    authorRole: 'مؤسس الشركة الإسلامية وخبير هندسة الماكينات الثقيلة',
     excerpt: 'دراسة هندسية شاملة توثق رحلة تطوير مناشير الرخام الوطنية، وابتكار نظام حمام الزيت الحصري الذي أنقذ مصانع شق التعبان من أعباء الاستيراد.',
     content: `
       <h2>المقدمة: واقع صناعة الرخام في مصر والشرق الأوسط</h2>
       <p>لعقود طويلة، كانت مصانع الحجر الطبيعي والرخام في مصر، وتحديداً في منطقة <strong>شق التعبان</strong> ومحافظات المنيا وأسوان والسويس، رهينة لماكينات مستوردة من إيطاليا أو الصين. هذه المعدات، على الرغم من دقتها الأولية، لم تكن مصممة لتحمل ظروف العمل القاسية، درجات الحرارة المرتفعة، وطبيعة كتل الجرانيت المصرية شديدة الصلابة مثل (جرانيت حلايب، أسواني أحمر، وفرسان). وكانت النتيجة الحتمية: أعطال متكررة، توقف خطوط الإنتاج لشهور في انتظار قطع غيار مستوردة بالعملة الصعبة، واستنزاف أرباح المصنعين.</p>
       
       <h2>الابتكار الهندسي المحوري: نظام "منشار حمام الزيت"</h2>
-      <p>من قلب ورش التشغيل الميدانية، حلّل <strong>المهندس أحمد فكري</strong> السبب الجذري لأكثر من 80% من أعطال مناشير الرخام التقليدية. تبيّن أن مياه التبريد المحملة ببودرة الكوارتز وجزيئات الصخور شديدة الكشط تتسرب عبر جوانات العزل وتصل إلى تروس الحركة الرئيسية، مما يؤدي إلى تآكل الأسنان الميكانيكية وتلف البلي خلال أقل من 6 أشهر.</p>
+      <p>من قلب ورش التشغيل الميدانية، حلّل <strong>الشركة الإسلامية</strong> السبب الجذري لأكثر من 80% من أعطال مناشير الرخام التقليدية. تبيّن أن مياه التبريد المحملة ببودرة الكوارتز وجزيئات الصخور شديدة الكشط تتسرب عبر جوانات العزل وتصل إلى تروس الحركة الرئيسية، مما يؤدي إلى تآكل الأسنان الميكانيكية وتلف البلي خلال أقل من 6 أشهر.</p>
       
       <div class="article-callout">
         <strong>💡 براءة الفكرة الهندسية:</strong>
-        قام المهندس أحمد فكري بتصميم غرفة تروس معزولة هيدروليكياً بنظام ضغط موجب وغاطسة بالكامل في "حمام زيت" ميكانيكي دائم. هذا التصميم يمنع فيزيائياً تسرب قطرة ماء واحدة أو ذرة غبار، ويضمن تبريداً وتشحيماً متواصلاً لتروس الصلب المسبوك.
+        قام الشركة الإسلامية بتصميم غرفة تروس معزولة هيدروليكياً بنظام ضغط موجب وغاطسة بالكامل في "حمام زيت" ميكانيكي دائم. هذا التصميم يمنع فيزيائياً تسرب قطرة ماء واحدة أو ذرة غبار، ويضمن تبريداً وتشحيماً متواصلاً لتروس الصلب المسبوك.
       </div>
 
       <h2>الأثر الاقتصادي على مصانع الرخام: وفورات حقيقية بالأرقام</h2>
@@ -120,35 +120,35 @@ const ARTICLES = [
       </ul>
 
       <h2>تجهيز كبرى المشروعات القومية والتصدير العربي</h2>
-      <p>لم تتوقف إنجازات المهندس أحمد فكري عند حدود السوق المحلي؛ بل تحولت مصانع <strong>فكري جروب</strong> في عرب أبو ساعد بحلوان والمنصورة إلى مركز صناعي إقليمي. تم توريد خطوط إنتاج ومناشير 13 أسطوانة وأوناش ساحات عملاقة حمولة 100 طن لتجهيز محاجر ومصانع في المملكة العربية السعودية، ليبيا، السودان، والأردن، مما جعل شعار <em>"صُنع في مصر بإشراف المهندس أحمد فكري"</em> عنواناً للجودة والمتانة التي يثق بها كبار رجال الأعمال.</p>
+      <p>لم تتوقف إنجازات الشركة الإسلامية عند حدود السوق المحلي؛ بل تحولت مصانع <strong>الشركة الإسلامية</strong> في عرب أبو ساعد بحلوان والمنصورة إلى مركز صناعي إقليمي. تم توريد خطوط إنتاج ومناشير 13 أسطوانة وأوناش ساحات عملاقة حمولة 100 طن لتجهيز محاجر ومصانع في المملكة العربية السعودية، ليبيا، السودان، والأردن، مما جعل شعار <em>"صُنع في مصر بإشراف الشركة الإسلامية"</em> عنواناً للجودة والمتانة التي يثق بها كبار رجال الأعمال.</p>
 
       <h2>الخلاصة ورسالة للمصنعين</h2>
-      <p>إن بناء مصنع رخام ناجح لا يتطلب شراء أغلى الماكينات الأجنبية، بل اختيار المعدة المصممة خصيصاً لتحمل طبيعة عملك وتوفر لك دعماً فنياً وقطع غيار محلية على مدار الساعة. هذا هو العهد الذي قطعته فكري جروب لكل شريك نجاح في مصر والوطن العربي.</p>
+      <p>إن بناء مصنع رخام ناجح لا يتطلب شراء أغلى الماكينات الأجنبية، بل اختيار المعدة المصممة خصيصاً لتحمل طبيعة عملك وتوفر لك دعماً فنياً وقطع غيار محلية على مدار الساعة. هذا هو العهد الذي قطعته الشركة الإسلامية لكل شريك نجاح في مصر والوطن العربي.</p>
     `
   },
   {
     id: 'biography',
-    title: 'السيرة الذاتية لـ المهندس أحمد فكري (Ahmed Fekry): رحلة 20 عاماً في قلب الصناعة الثقيلة',
+    title: 'تاريخ وتطور الشركة الإسلامية: رحلة 20 عاماً في قلب الصناعة الثقيلة وتجهيز كبرى المصانع',
     category: 'bio',
     categoryName: 'السيرة الذاتية',
     date: '28 يناير 2026',
     readTime: '5 دقائق قراءة',
     author: 'هيئة التحرير الصناعية',
     authorRole: 'توثيق رواد الصناعة المصرية',
-    excerpt: 'محطات ملهمة من حياة المهندس أحمد فكري، من التلمذة الميكانيكية وشغف المعادن إلى تأسيس أكبر صرح لتصنيع معدات الرخام في الشرق الأوسط.',
+    excerpt: 'محطات تاريخية بارزة في مسيرة الشركة الإسلامية، من الورش المتخصصة وشغف التطوير إلى تأسيس أكبر صرح لتصنيع معدات الرخام والأوناش في الشرق الأوسط.',
     content: `
       <h2>النشأة والشغف بعالم الميكانيكا والمعادن</h2>
-      <p>بدأت رحلة <strong>المهندس أحمد فكري</strong> منذ أكثر من عقدين من الزمان، مدفوعة بشغف عميق بديناميكا الحركة الثقيلة وهندسة المعادن المسبوكة. لم تكن بدايته عبر المكاتب النظرية، بل غاص في تفاصيل الورش الصناعية وخبر خفايا الماكينات بيديه، باحثاً دائماً عن مواطن الضعف في التصاميم التقليدية لتحويلها إلى نقاط قوة هندسية.</p>
+      <p>بدأت رحلة <strong>الشركة الإسلامية</strong> منذ أكثر من عقدين من الزمان، مدفوعة بشغف عميق بديناميكا الحركة الثقيلة وهندسة المعادن المسبوكة. لم تكن بدايته عبر المكاتب النظرية، بل غاص في تفاصيل الورش الصناعية وخبر خفايا الماكينات بيديه، باحثاً دائماً عن مواطن الضعف في التصاميم التقليدية لتحويلها إلى نقاط قوة هندسية.</p>
 
-      <h2>تأسيس فكري جروب: من ورشة طموحة إلى قلعة صناعية</h2>
-      <p>في مطلع الألفينات، أسس المهندس أحمد فكري نواة شركة <strong>"فكري جروب" (Fekry Group)</strong>. ووضع نصب عينيه هدفاً واحداً: أن تكون الماكينة المصرية هي الخيار الأول والأكثر موثوقية لأصحاب مصانع الرخام. وبفضل العمل الدؤوب، توسعت الشركة لتضم صرحين تصنيعيين:</p>
+      <h2>تأسيس الشركة الإسلامية: من ورشة هندسية طموحة إلى صرح صناعي رائد</h2>
+      <p>في مطلع الألفينات، أسس الشركة الإسلامية نواة شركة <strong>"الشركة الإسلامية" (Islamic Company)</strong>. ووضع نصب عينيه هدفاً واحداً: أن تكون الماكينة المصرية هي الخيار الأول والأكثر موثوقية لأصحاب مصانع الرخام. وبفضل العمل الدؤوب، توسعت الشركة لتضم صرحين تصنيعيين:</p>
       <ul>
         <li><strong>مصنع عرب أبو ساعد (حلوان):</strong> مخصص لإنتاج الشاسيهات الصلبة الثقيلة، سباكة الهياكل، ومناشير الجرانيت العملاقة.</li>
         <li><strong>مصنع المنصورة:</strong> مخصص لتجميع الأوناش العلوية والساحات وأنظمة التحكم الهيدروليكية والإلكترونية الدقيقة.</li>
       </ul>
 
       <h2>فلسفة القيادة الهندسية: الأمان والمتانة</h2>
-      <p>يتميز المهندس أحمد فكري بفلسفة عمل صارمة تقوم على اختبار كل ماكينة تحت أحمال تفوق طاقتها الاسمية بنسبة 30% قبل تسليمها للعميل. كما يحرص شخصياً على متابعة ملاحظات أصحاب المصانع وتطوير التحديثات الميكانيكية سنوياً لتلائم متطلبات السوق المتجددة.</p>
+      <p>يتميز الشركة الإسلامية بفلسفة عمل صارمة تقوم على اختبار كل ماكينة تحت أحمال تفوق طاقتها الاسمية بنسبة 30% قبل تسليمها للعميل. كما يحرص شخصياً على متابعة ملاحظات أصحاب المصانع وتطوير التحديثات الميكانيكية سنوياً لتلائم متطلبات السوق المتجددة.</p>
     `
   },
   {
@@ -158,7 +158,7 @@ const ARTICLES = [
     categoryName: 'دليل وتوجيهات',
     date: '01 مارس 2026',
     readTime: '7 دقائق قراءة',
-    author: 'المهندس أحمد فكري',
+    author: 'الشركة الإسلامية',
     authorRole: 'استشاري تجهيز وتطوير مصانع الرخام',
     excerpt: 'دليل إرشادي تفصيلي خطوة بخطوة لكل من يخطط لتأسيس أو تطوير مصنع رخام، مع حسابات دقيقة للتكلفة والإنتاجية والعائد الاستثماري.',
     content: `
@@ -171,9 +171,9 @@ const ARTICLES = [
       </ol>
 
       <h2>2. كيف تختار منشار الجرانيت المناسب؟</h2>
-      <p>تعتمد إنتاجية المصنع بنسبة 60% على كفاءة المنشار. يوصي المهندس أحمد فكري بالتركيز على ثلاثة معايير حاسمة:</p>
+      <p>تعتمد إنتاجية المصنع بنسبة 60% على كفاءة المنشار. يوصي الشركة الإسلامية بالتركيز على ثلاثة معايير حاسمة:</p>
       <ul>
-        <li><strong>وزن الشاسيه:</strong> الشاسيه الخفيف يهتز أثناء القص مما يكسر الألواح ويقصر عمر الديسكات. ماكينات فكري جروب تصنع بصلب مسبوك معالج يزن أضعاف الماكينات التجارية.</li>
+        <li><strong>وزن الشاسيه:</strong> الشاسيه الخفيف يهتز أثناء القص مما يكسر الألواح ويقصر عمر الديسكات. ماكينات الشركة الإسلامية تصنع بصلب مسبوك معالج يزن أضعاف الماكينات التجارية.</li>
         <li><strong>نظام التزييت:</strong> تجنب الماكينات المفتوحة التي تتلف تروسها سريعاً واطلب دائماً نظام <strong>حمام الزيت</strong>.</li>
         <li><strong>توفر قطع الغيار:</strong> لا تشترِ ماكينة مستوردة قد يتعطل إنتاجها شهوراً بسبب قطعة غيار بسيطة.</li>
       </ul>
@@ -190,14 +190,14 @@ const ARTICLES = [
     date: '10 يناير 2026',
     readTime: '4 دقائق قراءة',
     author: 'قسم الصيانة والدعم الفني',
-    authorRole: 'فكري جروب - شق التعبان',
+    authorRole: 'الشركة الإسلامية - شق التعبان',
     excerpt: 'خطوات عملية وتوصيات دورية يشاركها فريق الصيانة للحفاظ على أقصى عزم للمحركات ومنع تآكل الشفرات وقواعد التثبيت.',
     content: `
       <h2>القاعدة الأولى: نقاء مياه التبريد وتدويرها</h2>
       <p>مياه التبريد المستخدمة في قص الرخام تصبح مشبعة ببودرة الكالسيوم وحبيبات السيليكا. إن إعادة ضخ هذه المياه بدون أحواض ترسيب كافية يؤدي لانسداد فتحات التبريد وارتفاع حرارة أسطوانات القص، مما يتسبب في انحنائها وتلفها المبكر.</p>
 
       <h2>القاعدة الثانية: الفحص الأسبوعي لزوجة زيت الهيدروليك</h2>
-      <p>تعمل ماكينات النشر لساعات طويلة متواصلة، مما يرفع درجة حرارة الزيت. احرص على فحص لزوجة ولون الزيت دورياً، واستخدم الزيوت الهيدروليكية ذات المقاومة العالية للحرارة المعتمدة من فكري جروب.</p>
+      <p>تعمل ماكينات النشر لساعات طويلة متواصلة، مما يرفع درجة حرارة الزيت. احرص على فحص لزوجة ولون الزيت دورياً، واستخدم الزيوت الهيدروليكية ذات المقاومة العالية للحرارة المعتمدة من الشركة الإسلامية.</p>
 
       <h2>القاعدة الثالثة: تشحيم محاور الأوناش والعربات</h2>
       <p>تتعرض أوناش الزرافة وأوناش الساحات لأحمال ديناميكية ثقيلة وغبار مستمر. يجب تشحيم كراسي المحاور وبكرات الوايرات أسبوعياً بشحوم مخصصة تتحمل الضغوط العالية لضمان حركة سلسة وبدون احتكاك.</p>
@@ -207,8 +207,8 @@ const ARTICLES = [
 
 const FAQS = [
   {
-    q: 'ما الذي يميز ماكينات فكري جروب عن الماكينات المستوردة؟',
-    a: 'ماكيناتنا مصممة خصيصاً لتتحمل الخدمة الشاقة وظروف العمل القاسية في مصانع الرخام بمصر والشرق الأوسط، وتتميز بنظام حمام الزيت الحصري لمنع الأعطال، مع توفر فوري لكافة قطع الغيار محلياً بأسعار تنافسية وبضمان معتمد من المهندس أحمد فكري.'
+    q: 'ما الذي يميز ماكينات الشركة الإسلامية عن الماكينات المستوردة؟',
+    a: 'ماكيناتنا مصممة خصيصاً لتتحمل الخدمة الشاقة وظروف العمل القاسية في مصانع الرخام بمصر والشرق الأوسط، وتتميز بنظام حمام الزيت الحصري لمنع الأعطال، مع توفر فوري لكافة قطع الغيار محلياً بأسعار تنافسية وبضمان معتمد من الشركة الإسلامية.'
   },
   {
     q: 'هل توفرون ماكينات بمقاسات وحمولات مخصصة حسب رغبة المصنع؟',
@@ -284,9 +284,13 @@ export default function App() {
     ? ARTICLES
     : ARTICLES.filter(a => a.category === activeArticleFilter);
 
+  const getWhatsAppUrl = (productOrTopic) => {
+    const text = encodeURIComponent(`مرحباً الشركة الإسلامية (الشركة الإسلامية)، أريد الاستفسار عن تفاصيل وسعر: ${productOrTopic || 'ماكينات الرخام والأوناش'}`);
+    return `https://wa.me/201011218141?text=${text}`;
+  };
+
   const handleWhatsAppQuote = (productOrTopic) => {
-    const text = encodeURIComponent(`مرحباً المهندس أحمد فكري (فكري جروب)، أريد الاستفسار عن تفاصيل وسعر: ${productOrTopic || 'ماكينات الرخام والأوناش'}`);
-    window.open(`https://wa.me/201011218141?text=${text}`, '_blank');
+    window.open(getWhatsAppUrl(productOrTopic), '_blank', 'noopener,noreferrer');
   };
 
   const handleFormSubmit = (e) => {
@@ -322,9 +326,9 @@ export default function App() {
         <div className="container navbar-inner">
           <div style={{ display: 'flex', alignItems: 'center', gap: '14px', cursor: 'pointer' }} onClick={returnToHome}>
             <div className="brand-logo">
-              <img src="/logo.png" alt="فكري جروب - المهندس أحمد فكري" />
+              <img src="/logo.png" alt="الشركة الإسلامية - الشركة الإسلامية" />
               <div className="brand-title-wrap">
-                <span className="brand-title">فكري جروب</span>
+                <span className="brand-title">الشركة الإسلامية</span>
                 <span className="brand-sub">صناعة ماكينات الرخام والجرانيت والأوناش</span>
               </div>
             </div>
@@ -343,7 +347,7 @@ export default function App() {
             </li>
             <li><a href="#features" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">مميزاتنا</a></li>
             <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">الماكينات</a></li>
-            <li><a href="#about" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">المهندس أحمد فكري</a></li>
+            <li><a href="#about" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">الشركة الإسلامية</a></li>
             <li><a href="#articles" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">المقالات والأخبار</a></li>
             <li><a href="#faq" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">الأسئلة الشائعة</a></li>
             <li><a href="#contact" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">فروعنا وتواصل</a></li>
@@ -366,10 +370,10 @@ export default function App() {
         <aside className={`mobile-drawer ${mobileMenuOpen ? 'active' : ''}`} onClick={(e) => e.stopPropagation()}>
           <div className="drawer-header">
             <div className="brand-logo" onClick={() => { returnToHome(); setMobileMenuOpen(false); }}>
-              <img src="/logo.png" alt="لوجو فكري جروب" style={{ height: '40px' }} />
+              <img src="/logo.png" alt="لوجو الشركة الإسلامية" style={{ height: '40px' }} />
               <div>
-                <div style={{ fontWeight: '800', color: 'var(--text-main)', fontSize: '1.1rem' }}>فكري جروب</div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--gold-dark)' }}>المهندس أحمد فكري</div>
+                <div style={{ fontWeight: '800', color: 'var(--text-main)', fontSize: '1.1rem' }}>الشركة الإسلامية</div>
+                <div style={{ fontSize: '0.75rem', color: 'var(--gold-dark)' }}>الشركة الإسلامية</div>
               </div>
             </div>
             <button className="drawer-close-btn" onClick={() => setMobileMenuOpen(false)} aria-label="إغلاق">✕</button>
@@ -390,7 +394,7 @@ export default function App() {
             </a>
             <a href="#about" className="drawer-link" onClick={() => { if(currentView !== 'home') returnToHome(); setMobileMenuOpen(false); }}>
               <span className="drawer-icon">👨‍💼</span>
-              <span>سيرة المهندس أحمد فكري</span>
+              <span>عن الشركة الإسلامية</span>
             </a>
             <a href="#articles" className="drawer-link" onClick={() => { if(currentView !== 'home') returnToHome(); setMobileMenuOpen(false); }}>
               <span className="drawer-icon">📰</span>
@@ -452,7 +456,7 @@ export default function App() {
                 <h1 className="article-main-title">{activeArticle.title}</h1>
 
                 <div className="article-author-card">
-                  <img src="/eng-ahmed.jpg" alt={activeArticle.author} className="author-avatar" />
+                  <img src="/hero-banner.jpg" alt={activeArticle.author} className="author-avatar" />
                   <div className="author-details">
                     <div className="author-name">{activeArticle.author}</div>
                     <div className="author-role">{activeArticle.authorRole}</div>
@@ -467,7 +471,7 @@ export default function App() {
               {/* Featured Image in Article */}
               <div className="article-featured-image-wrap">
                 <img src="/hero-banner.jpg" alt={activeArticle.title} />
-                <div className="image-caption">تصنيع وابتكار ماكينات الرخام والجرانيت الثقيلة بمصانع فكري جروب</div>
+                <div className="image-caption">تصنيع وابتكار ماكينات الرخام والجرانيت الثقيلة بمصانع الشركة الإسلامية</div>
               </div>
 
               {/* Rich Body Content */}
@@ -480,11 +484,11 @@ export default function App() {
               <div className="article-cta-box">
                 <div className="cta-content">
                   <h3>هل تبحث عن الماكينة الأنسب لمصنعك بأعلى عائد استثماري؟</h3>
-                  <p>تواصل مباشرة مع المهندس أحمد فكري للاستشارات الفنية وتجهيز خطوط الإنتاج والتعرف على الأسعار الخاصة.</p>
+                  <p>تواصل مباشرة مع الشركة الإسلامية للاستشارات الفنية وتجهيز خطوط الإنتاج والتعرف على الأسعار الخاصة.</p>
                 </div>
                 <div className="cta-actions">
                   <button onClick={() => handleWhatsAppQuote(activeArticle.title)} className="btn btn-whatsapp">
-                    تواصل واتساب مع المهندس أحمد فكري
+                    تواصل واتساب مع الشركة الإسلامية
                   </button>
                   <a href="tel:01011218141" className="btn btn-outline">
                     اتصال هاتفي: 01011218141
@@ -524,11 +528,11 @@ export default function App() {
               <div className="sidebar-widget">
                 <div style={{ textAlign: 'center', marginBottom: '16px' }}>
                   <img 
-                    src="/eng-ahmed.jpg" 
-                    alt="المهندس أحمد فكري" 
+                    src="/hero-banner.jpg" 
+                    alt="الشركة الإسلامية" 
                     style={{ width: '110px', height: '110px', borderRadius: '50%', objectFit: 'cover', margin: '0 auto 12px', border: '3px solid var(--gold-primary)' }}
                   />
-                  <h4 style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--text-main)', marginBottom: '4px' }}>المهندس أحمد فكري</h4>
+                  <h4 style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--text-main)', marginBottom: '4px' }}>الشركة الإسلامية</h4>
                   <div style={{ fontSize: '0.85rem', color: 'var(--gold-dark)' }}>رائد صناعة الماكينات في الشرق الأوسط</div>
                 </div>
                 <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', lineHeight: '1.7', textAlign: 'center' }}>
@@ -582,7 +586,7 @@ export default function App() {
           {/* Hero Section */}
           <section id="hero" className="hero-section">
             <div className="hero-bg-media">
-              <img src="/hero-banner.jpg" alt="مصنع ماكينات الرخام فكري جروب" className="hero-bg-img" />
+              <img src="/hero-banner.jpg" alt="مصنع ماكينات الرخام الشركة الإسلامية" className="hero-bg-img" />
             </div>
             <div className="hero-gradient-overlay"></div>
 
@@ -594,7 +598,7 @@ export default function App() {
                 </div>
                 
                 <h1 className="hero-headline">
-                  المهندس <span className="gradient-text">أحمد فكري</span><br />
+                  المهندس <span className="gradient-text">الشركة الإسلامية</span><br />
                   أسطورة صناعة ماكينات الرخام والأوناش الثقيلة
                 </h1>
 
@@ -626,10 +630,15 @@ export default function App() {
                     استكشف أسطول الماكينات
                     <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
                   </a>
-                  <button onClick={() => handleWhatsAppQuote()} className="btn btn-whatsapp">
-                    تواصل واتساب مباشرة
+                  <a 
+                    href={getWhatsAppUrl('استفسار من الصفحة الرئيسية')}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-whatsapp"
+                  >
+                    <span>تواصل واتساب مباشرة</span>
                     <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
-                  </button>
+                  </a>
                   <a href="#articles" className="btn btn-outline">
                     المقالات ودليل المصانع
                   </a>
@@ -663,7 +672,7 @@ export default function App() {
           <section id="features" className="section" style={{ background: 'var(--bg-surface)' }}>
             <div className="container">
               <div className="section-header">
-                <div className="section-badge">لماذا تختار فكري جروب؟</div>
+                <div className="section-badge">لماذا تختار الشركة الإسلامية؟</div>
                 <h2 className="section-title">ابتكارات هندسية تصنع الفارق لمصنعك</h2>
                 <p className="section-subtitle">
                   نصمم ونصنع معدات تتحمل أقصى ظروف التشغيل المستمر مع خفض تكاليف الصيانة وقطع الغيار إلى أدنى حد ممكن.
@@ -794,29 +803,29 @@ export default function App() {
             </div>
           </section>
 
-          {/* About Founder Section */}
+          {/* About Company Section */}
           <section id="about" className="section" style={{ background: 'var(--bg-surface)' }}>
             <div className="container">
               <div className="about-box">
                 <div className="about-grid">
                   <div className="founder-img-card">
-                    <img src="/eng-ahmed.jpg" alt="المهندس أحمد فكري - Ahmed Fekry" />
+                    <img src="/hero-banner.jpg" alt="الشركة الإسلامية لماكينات الرخام والجرانيت" />
                     <div className="founder-badge">
-                      <div className="founder-name">المهندس أحمد فكري</div>
-                      <div className="founder-title">رائد ومطور صناعات ماكينات الرخام في مصر والشرق الأوسط</div>
+                      <div className="founder-name">الشركة الإسلامية</div>
+                      <div className="founder-title">صرح صناعي متكامل لتجهيز مصانع الرخام والجرانيت والأوناش</div>
                     </div>
                   </div>
 
                   <div className="about-narrative">
-                    <div className="section-badge">القيادة والرؤية الهندسية</div>
+                    <div className="section-badge">الريادة الصناعية والهندسية</div>
                     <h2>شراكة نجاح تثق بها كبرى مصانع الحجر والرخام</h2>
                     
                     <p>
-                      تُعد "فكري جروب" بقيادة <strong>المهندس أحمد فكري</strong> قلعة صناعية شامخة في مجال المعدات الثقيلة. على مدار أكثر من عقدين من الزمان، نجحنا في بناء منظومة صناعية مصرية تنافس أعتى الماركات الإيطالية والتركية، وتزود مصانع شق التعبان ومختلف المحافظات والدول العربية بماكينات صلبة تعيش لأجيال.
+                      تُعد <strong>الشركة الإسلامية</strong> قلعة صناعية شامخة ورائدة في تصنيع ماكينات الرخام والجرانيت والأوناش الثقيلة. على مدار أكثر من عقدين من الزمان، نجحنا في بناء منظومة هندسية مصرية فائقة الجودة تضاهي التكنولوجيا الأوروبية، وتزود كبرى مصانع شق التعبان ومختلف المحافظات والدول بماكينات صلبة ذات عمر افتراضي استثنائي.
                     </p>
 
                     <div className="quote-block">
-                      "نحن لا نبيع مجرد حديد وماكينات، بل نبني شراكة نجاح مستمرة؛ نضمن لك أعلى إنتاجية وأقل تكلفة صيانة مع توفير قطع الغيار محلياً لضمان عدم توقف مصنعك ولو لدقيقة واحدة."
+                      "نحن لا نبيع مجرد معدات، بل نبني شراكة نجاح مستمرة؛ نضمن لك أعلى إنتاجية وأقل تكلفة صيانة مع توفير فوري لكافة قطع الغيار محلياً لضمان استمرارية تشغيل مصنعك بأعلى طاقة."
                     </div>
 
                     <div className="about-features-list">
@@ -850,7 +859,7 @@ export default function App() {
                 <div className="section-badge">المقالات والمعرفة الصناعية (SEO)</div>
                 <h2 className="section-title">دليل صناعة وتطوير ماكينات الرخام والجرانيت</h2>
                 <p className="section-subtitle">
-                  مقالات حصرية ودراسات فنية يقدمها المهندس أحمد فكري لمساعدة أصحاب المصانع على مضاعفة الإنتاج وخفض تكاليف التشغيل.
+                  مقالات حصرية ودراسات فنية يقدمها الشركة الإسلامية لمساعدة أصحاب المصانع على مضاعفة الإنتاج وخفض تكاليف التشغيل.
                 </p>
               </div>
 
@@ -1094,14 +1103,14 @@ export default function App() {
           <div className="footer-grid">
             <div className="footer-about">
               <div className="brand-logo" onClick={returnToHome} style={{ cursor: 'pointer' }}>
-                <img src="/logo.png" alt="فكري جروب" />
+                <img src="/logo.png" alt="الشركة الإسلامية" />
                 <div className="brand-title-wrap">
-                  <span className="brand-title" style={{ color: '#fff' }}>فكري جروب</span>
-                  <span className="brand-sub">Ahmed Fekry Industrial Group</span>
+                  <span className="brand-title" style={{ color: '#fff' }}>الشركة الإسلامية</span>
+                  <span className="brand-sub">Islamic Industrial Machinery Group</span>
                 </div>
               </div>
               <p>
-                الشركة الرائدة في جمهورية مصر العربية والشرق الأوسط لتصنيع ماكينات نشر وقص الرخام والجرانيت، جلايات الشرائح، والأوناش العلوية والساحات حتى 100 طن بإشراف المهندس أحمد فكري.
+                الشركة الرائدة في جمهورية مصر العربية والشرق الأوسط لتصنيع ماكينات نشر وقص الرخام والجرانيت، جلايات الشرائح، والأوناش العلوية والساحات حتى 100 طن بأعلى معايير الجودة والصلابة.
               </p>
               <div className="footer-social-links">
                 <a href="https://www.facebook.com/1ahmedfekry/" target="_blank" rel="noopener noreferrer" className="social-btn" aria-label="فيسبوك">
@@ -1124,7 +1133,7 @@ export default function App() {
                 <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>الماكينات والأوناش</a></li>
                 <li><a href="#articles" onClick={() => { if(currentView !== 'home') returnToHome(); }}>المقالات ودراسات الجدوى</a></li>
                 <li><a href="#faq" onClick={() => { if(currentView !== 'home') returnToHome(); }}>الأسئلة الشائعة</a></li>
-                <li><a href="#about" onClick={() => { if(currentView !== 'home') returnToHome(); }}>سيرة المهندس أحمد فكري</a></li>
+                <li><a href="#about" onClick={() => { if(currentView !== 'home') returnToHome(); }}>عن الشركة الإسلامية</a></li>
                 <li><a href="#contact" onClick={() => { if(currentView !== 'home') returnToHome(); }}>طلب عرض سعر</a></li>
               </ul>
             </div>
@@ -1136,7 +1145,7 @@ export default function App() {
                 <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>جلاية 10 رأس طولات</a></li>
                 <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ونش الزرافة والعلم</a></li>
                 <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ونش ساحة 100 طن</a></li>
-                <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ماكينة فكري 1600</a></li>
+                <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ماكينة الإسلامية 1600</a></li>
               </ul>
             </div>
 
@@ -1158,7 +1167,7 @@ export default function App() {
 
           <div className="footer-bottom">
             <div>
-              جميع الحقوق محفوظة © {new Date().getFullYear()} فكري جروب (المهندس أحمد فكري - Ahmed Fekry).
+              جميع الحقوق محفوظة © {new Date().getFullYear()} الشركة الإسلامية (الشركة الإسلامية).
             </div>
             <div style={{ color: 'var(--gold-light)' }}>
               صناعة مصرية بمعايير عالمية 🇪🇬
@@ -1219,25 +1228,39 @@ export default function App() {
       )}
 
       {/* Desktop Floating WhatsApp Widget */}
-      <div 
+      <a 
+        href={getWhatsAppUrl('تواصل عام مع الشركة الإسلامية')}
+        target="_blank"
+        rel="noopener noreferrer"
         className="floating-whatsapp-widget"
-        onClick={() => handleWhatsAppQuote()}
-        title="تواصل فوري عبر واتساب"
+        title="تحدث مع الشركة الإسلامية عبر واتساب"
+        aria-label="تواصل فوري عبر واتساب"
       >
-        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
-        <span>تحدث مع المهندس أحمد فكري</span>
-      </div>
+        <div className="whatsapp-icon-circle">
+          <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          <span className="online-indicator"></span>
+        </div>
+        <div className="whatsapp-text-content">
+          <span className="whatsapp-badge-status">متاح الآن للاستفسارات</span>
+          <span className="whatsapp-badge-title">واتساب الشركة الإسلامية</span>
+        </div>
+      </a>
 
       {/* Mobile Sticky Quick Action Bar */}
       <div className="mobile-sticky-action-bar">
         <a href="tel:01011218141" className="mobile-action-btn phone">
           <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 00-1.02.24l-2.2 2.2a15.045 15.045 0 01-6.59-6.59l2.2-2.21a.96.96 0 00.25-1A11.36 11.36 0 018.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/></svg>
-          <span>اتصال بالمبيعات</span>
+          <span>اتصال هاتفي</span>
         </a>
-        <button onClick={() => handleWhatsAppQuote()} className="mobile-action-btn whatsapp">
+        <a 
+          href={getWhatsAppUrl('استفسار فوري عبر الموبايل')}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mobile-action-btn whatsapp"
+        >
           <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
           <span>محادثة واتساب</span>
-        </button>
+        </a>
       </div>
     </div>
   );
