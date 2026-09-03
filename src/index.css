@@ -1567,22 +1567,38 @@ strong, b {
 /* Floating WhatsApp Direct Pulse Widget */
 .floating-whatsapp-widget {
   position: fixed;
-  bottom: 30px;
-  left: 30px;
+  bottom: 25px;
+  left: 25px;
   z-index: 9997;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   background: #25d366;
   color: #fff;
-  padding: 12px 22px;
+  padding: 8px 16px;
   border-radius: var(--radius-full);
   box-shadow: 0 10px 30px rgba(37, 211, 102, 0.35);
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 0.9rem;
   cursor: pointer;
   transition: var(--transition);
   animation: pulse-ring 2.5s infinite;
+}
+
+.whatsapp-text-content {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.whatsapp-badge-status {
+  font-size: 0.7rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.whatsapp-badge-title {
+  font-size: 0.9rem;
 }
 
 .floating-whatsapp-widget:hover {

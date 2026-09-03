@@ -598,7 +598,7 @@ export default function App() {
                 </div>
                 
                 <h1 className="hero-headline">
-                  المهندس <span className="gradient-text">الشركة الإسلامية</span><br />
+                  <span className="gradient-text">الشركة الإسلامية</span><br />
                   أسطورة صناعة ماكينات الرخام والأوناش الثقيلة
                 </h1>
 
