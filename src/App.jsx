@@ -338,6 +338,27 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const navigateToSection = (hash) => {
+    setMobileMenuOpen(false);
+    if (currentView !== 'home') {
+      setCurrentView('home');
+      if (window.location.pathname !== '/') {
+        window.history.pushState({}, '', '/');
+      }
+      setTimeout(() => {
+        const element = document.getElementById(hash.replace('#', ''));
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      const element = document.getElementById(hash.replace('#', ''));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
   const filteredProducts = activeFilter === 'all' 
     ? PRODUCTS 
     : PRODUCTS.filter(p => p.category === activeFilter);
@@ -409,7 +430,7 @@ export default function App() {
             </li>
             <li><a href="#features" onClick={(e) => { e.preventDefault(); navigateToSection('#features'); }} className="nav-link">مميزاتنا</a></li>
             <li><a href="#products" onClick={(e) => { e.preventDefault(); navigateToSection('#products'); }} className="nav-link">الماكينات</a></li>
-            <li><a href="#about" onClick={(e) => { e.preventDefault(); navigateToSection('#about'); }} className="nav-link">فكري جروب</a></li>
+            <li><a href="#about" onClick={(e) => { e.preventDefault(); navigateToSection('#about'); }} className="nav-link">عن فكري جروب</a></li>
             <li><a href="#articles" onClick={(e) => { e.preventDefault(); navigateToSection('#articles'); }} className="nav-link">المقالات والأخبار</a></li>
             <li><a href="#faq" onClick={(e) => { e.preventDefault(); navigateToSection('#faq'); }} className="nav-link">الأسئلة الشائعة</a></li>
             <li><a href="#contact" onClick={(e) => { e.preventDefault(); navigateToSection('#contact'); }} className="nav-link">فروعنا وتواصل</a></li>
