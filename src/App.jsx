@@ -407,12 +407,12 @@ export default function App() {
                 الرئيسية
               </button>
             </li>
-            <li><a href="#features" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">مميزاتنا</a></li>
-            <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">الماكينات</a></li>
-            <li><a href="#about" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">الشركة الإسلامية</a></li>
-            <li><a href="#articles" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">المقالات والأخبار</a></li>
-            <li><a href="#faq" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">الأسئلة الشائعة</a></li>
-            <li><a href="#contact" onClick={() => { if(currentView !== 'home') returnToHome(); }} className="nav-link">فروعنا وتواصل</a></li>
+            <li><a href="#features" onClick={(e) => { e.preventDefault(); navigateToSection('#features'); }} className="nav-link">مميزاتنا</a></li>
+            <li><a href="#products" onClick={(e) => { e.preventDefault(); navigateToSection('#products'); }} className="nav-link">الماكينات</a></li>
+            <li><a href="#about" onClick={(e) => { e.preventDefault(); navigateToSection('#about'); }} className="nav-link">الشركة الإسلامية</a></li>
+            <li><a href="#articles" onClick={(e) => { e.preventDefault(); navigateToSection('#articles'); }} className="nav-link">المقالات والأخبار</a></li>
+            <li><a href="#faq" onClick={(e) => { e.preventDefault(); navigateToSection('#faq'); }} className="nav-link">الأسئلة الشائعة</a></li>
+            <li><a href="#contact" onClick={(e) => { e.preventDefault(); navigateToSection('#contact'); }} className="nav-link">فروعنا وتواصل</a></li>
           </ul>
 
           <div className="nav-actions">
@@ -446,27 +446,27 @@ export default function App() {
               <span className="drawer-icon">🏠</span>
               <span>الصفحة الرئيسية</span>
             </button>
-            <a href="#features" className="drawer-link" onClick={() => { if(currentView !== 'home') returnToHome(); setMobileMenuOpen(false); }}>
+            <a href="#features" className="drawer-link" onClick={(e) => { e.preventDefault(); navigateToSection('#features'); }}>
               <span className="drawer-icon">⚙️</span>
               <span>لماذا تختارنا ومميزاتنا</span>
             </a>
-            <a href="#products" className="drawer-link" onClick={() => { if(currentView !== 'home') returnToHome(); setMobileMenuOpen(false); }}>
+            <a href="#products" className="drawer-link" onClick={(e) => { e.preventDefault(); navigateToSection('#products'); }}>
               <span className="drawer-icon">🏗️</span>
               <span>أسطول الماكينات والأوناش</span>
             </a>
-            <a href="#about" className="drawer-link" onClick={() => { if(currentView !== 'home') returnToHome(); setMobileMenuOpen(false); }}>
+            <a href="#about" className="drawer-link" onClick={(e) => { e.preventDefault(); navigateToSection('#about'); }}>
               <span className="drawer-icon">👨‍💼</span>
               <span>عن الشركة الإسلامية</span>
             </a>
-            <a href="#articles" className="drawer-link" onClick={() => { if(currentView !== 'home') returnToHome(); setMobileMenuOpen(false); }}>
+            <a href="#articles" className="drawer-link" onClick={(e) => { e.preventDefault(); navigateToSection('#articles'); }}>
               <span className="drawer-icon">📰</span>
               <span>المقالات ودليل المصانع</span>
             </a>
-            <a href="#faq" className="drawer-link" onClick={() => { if(currentView !== 'home') returnToHome(); setMobileMenuOpen(false); }}>
+            <a href="#faq" className="drawer-link" onClick={(e) => { e.preventDefault(); navigateToSection('#faq'); }}>
               <span className="drawer-icon">❓</span>
               <span>الأسئلة الشائعة</span>
             </a>
-            <a href="#contact" className="drawer-link" onClick={() => { if(currentView !== 'home') returnToHome(); setMobileMenuOpen(false); }}>
+            <a href="#contact" className="drawer-link" onClick={(e) => { e.preventDefault(); navigateToSection('#contact'); }}>
               <span className="drawer-icon">📍</span>
               <span>الفروع والتواصل</span>
             </a>
@@ -1216,23 +1216,23 @@ export default function App() {
               <h4 className="footer-title">أقسام الموقع</h4>
               <ul className="footer-links">
                 <li><button onClick={returnToHome} style={{ background: 'none', border: 'none', color: '#94a3b8', cursor: 'pointer', fontFamily: 'inherit' }}>الرئيسية</button></li>
-                <li><a href="#features" onClick={() => { if(currentView !== 'home') returnToHome(); }}>مميزات الصناعة</a></li>
-                <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>الماكينات والأوناش</a></li>
-                <li><a href="#articles" onClick={() => { if(currentView !== 'home') returnToHome(); }}>المقالات ودراسات الجدوى</a></li>
-                <li><a href="#faq" onClick={() => { if(currentView !== 'home') returnToHome(); }}>الأسئلة الشائعة</a></li>
-                <li><a href="#about" onClick={() => { if(currentView !== 'home') returnToHome(); }}>عن الشركة الإسلامية</a></li>
-                <li><a href="#contact" onClick={() => { if(currentView !== 'home') returnToHome(); }}>طلب عرض سعر</a></li>
+                <li><a href="#features" onClick={(e) => { e.preventDefault(); navigateToSection('#features'); }}>مميزات الصناعة</a></li>
+                <li><a href="#products" onClick={(e) => { e.preventDefault(); navigateToSection('#products'); }}>الماكينات والأوناش</a></li>
+                <li><a href="#articles" onClick={(e) => { e.preventDefault(); navigateToSection('#articles'); }}>المقالات ودراسات الجدوى</a></li>
+                <li><a href="#faq" onClick={(e) => { e.preventDefault(); navigateToSection('#faq'); }}>الأسئلة الشائعة</a></li>
+                <li><a href="#about" onClick={(e) => { e.preventDefault(); navigateToSection('#about'); }}>عن الشركة الإسلامية</a></li>
+                <li><a href="#contact" onClick={(e) => { e.preventDefault(); navigateToSection('#contact'); }}>طلب عرض سعر</a></li>
               </ul>
             </div>
 
             <div>
               <h4 className="footer-title">الماكينات المتاحة</h4>
               <ul className="footer-links">
-                <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>منشار 13 أسطوانة</a></li>
-                <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>جلاية 10 رأس طولات</a></li>
-                <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ونش الزرافة والعلم</a></li>
-                <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ونش ساحة 100 طن</a></li>
-                <li><a href="#products" onClick={() => { if(currentView !== 'home') returnToHome(); }}>ماكينة فكري 1600</a></li>
+                <li><a href="#products" onClick={(e) => { e.preventDefault(); navigateToSection('#products'); }}>منشار 13 أسطوانة</a></li>
+                <li><a href="#products" onClick={(e) => { e.preventDefault(); navigateToSection('#products'); }}>جلاية 10 رأس طولات</a></li>
+                <li><a href="#products" onClick={(e) => { e.preventDefault(); navigateToSection('#products'); }}>ونش الزرافة والعلم</a></li>
+                <li><a href="#products" onClick={(e) => { e.preventDefault(); navigateToSection('#products'); }}>ونش ساحة 100 طن</a></li>
+                <li><a href="#products" onClick={(e) => { e.preventDefault(); navigateToSection('#products'); }}>ماكينة فكري 1600</a></li>
               </ul>
             </div>
 
