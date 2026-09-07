@@ -1782,3 +1782,4 @@ strong, b {
     padding-bottom: 70px;
   }
 }
+\n\n/* FORCE MOBILE RESPONSIVENESS */\nhtml, body, #root { overflow-x: hidden !important; width: 100% !important; max-width: 100vw !important; }\nimg, video, iframe, canvas { max-width: 100% !important; }\n* { max-width: 100vw !important; }\n

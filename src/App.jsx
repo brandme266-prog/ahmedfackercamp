@@ -412,7 +412,7 @@ export default function App() {
               <img src="/logo.png" alt="فكري جروب - صناعة ماكينات الرخام والجرانيت" />
               <div className="brand-title-wrap">
                 <span className="brand-title">فكري جروب</span>
-                <span className="brand-sub">صناعة ماكينات الرخام والجرانيت والأوناش</span>
+                <span className="brand-sub">لصناعة ماكينات الرخام والجرانيت والأوناش في مصر والوطن العربي</span>
               </div>
             </div>
           </div>
