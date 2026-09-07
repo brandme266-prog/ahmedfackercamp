@@ -290,13 +290,12 @@ export default function App() {
     notes: ''
   });
 
-  // Handle Browser Back Button integration
+  // Handle Browser Back Button and Initial Load integration
   useEffect(() => {
-    const handlePopState = () => {
+    const handleLocationChange = () => {
       const path = window.location.pathname;
-      const hash = window.location.hash;
-      if (hash.startsWith('#article-')) {
-        const artId = hash.replace('#article-', '');
+      if (path.startsWith('/article/')) {
+        const artId = path.replace('/article/', '');
         const found = ARTICLES.find(a => a.id === artId);
         if (found) {
           setActiveArticle(found);
@@ -306,20 +305,26 @@ export default function App() {
         setCurrentView('home');
       }
     };
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
+    
+    // Check on first load
+    handleLocationChange();
+
+    window.addEventListener('popstate', handleLocationChange);
+    return () => window.removeEventListener('popstate', handleLocationChange);
   }, []);
 
   const openArticlePage = (article) => {
     setActiveArticle(article);
     setCurrentView('article');
-    window.location.hash = `article-${article.id}`;
+    window.history.pushState({}, '', `/article/${article.id}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const returnToHome = () => {
     setCurrentView('home');
-    window.location.hash = '';
+    if (window.location.pathname !== '/') {
+      window.history.pushState({}, '', '/');
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

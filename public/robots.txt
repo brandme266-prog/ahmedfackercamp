@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fekrycompany.com/sitemap.xml
