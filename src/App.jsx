@@ -90,7 +90,7 @@ const PRODUCTS = [
 
 const ARTICLES = [
   {
-    id: 'achievements',
+    id: 'ابتكار-نظام-حمام-الزيت',
     image: '/saw-13.jpg',
     title: 'مسيرة وإنجازات الشركة الإسلامية في النهوض بصناعة الرخام والجرانيت وتحدي الاستيراد الأوروبي',
     category: 'history',
@@ -125,7 +125,7 @@ const ARTICLES = [
     `
   },
   {
-    id: 'biography',
+    id: 'تاريخ-الشركة',
     image: '/eng-ahmed.jpg',
     title: 'تاريخ وتطور الشركة الإسلامية: رحلة 20 عاماً في قلب الصناعة الثقيلة وتجهيز كبرى المصانع',
     category: 'bio',
@@ -151,7 +151,7 @@ const ARTICLES = [
     `
   },
   {
-    id: 'buying-guide',
+    id: 'دليل-المستثمر',
     image: '/crane-yard.jpg',
     title: 'دليل المستثمر لمصانع الرخام والجرانيت 2026: دراسة جدوى، الأسعار، واختيار الماكينات',
     category: 'guide',
@@ -183,7 +183,7 @@ const ARTICLES = [
     `
   },
   {
-    id: 'maintenance-tips',
+    id: 'أسرار-الصيانة',
     image: '/machine1.jpg',
     title: 'أسرار الصيانة الوقائية لمعدات وأوناش الرخام: 5 قواعد ذهبية لتفادي الأعطال المفاجئة',
     category: 'guide',
@@ -213,7 +213,7 @@ const ARTICLES = [
     `
   },
   {
-    id: 'best-marble-machines-company',
+    id: 'أفضل-شركة-تجهيز-مصانع',
     image: '/polisher-10.jpg',
     title: 'كيف تختار أفضل شركة لصناعة وتوريد ماكينات الرخام في مصر لعام 2026؟',
     category: 'guide',
@@ -388,9 +388,9 @@ export default function App() {
         <div className="container navbar-inner">
           <div style={{ display: 'flex', alignItems: 'center', gap: '14px', cursor: 'pointer' }} onClick={returnToHome}>
             <div className="brand-logo">
-              <img src="/logo.png" alt="الشركة الإسلامية - الشركة الإسلامية" />
+              <img src="/logo.png" alt="فكري جروب - صناعة ماكينات الرخام والجرانيت" />
               <div className="brand-title-wrap">
-                <span className="brand-title">الشركة الإسلامية</span>
+                <span className="brand-title">فكري جروب</span>
                 <span className="brand-sub">صناعة ماكينات الرخام والجرانيت والأوناش</span>
               </div>
             </div>
@@ -432,10 +432,10 @@ export default function App() {
         <aside className={`mobile-drawer ${mobileMenuOpen ? 'active' : ''}`} onClick={(e) => e.stopPropagation()}>
           <div className="drawer-header">
             <div className="brand-logo" onClick={() => { returnToHome(); setMobileMenuOpen(false); }}>
-              <img src="/logo.png" alt="لوجو الشركة الإسلامية" style={{ height: '40px' }} />
+              <img src="/logo.png" alt="لوجو فكري جروب" style={{ height: '40px' }} />
               <div>
-                <div style={{ fontWeight: '800', color: 'var(--text-main)', fontSize: '1.1rem' }}>الشركة الإسلامية</div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--gold-dark)' }}>الشركة الإسلامية</div>
+                <div style={{ fontWeight: '800', color: 'var(--text-main)', fontSize: '1.1rem' }}>فكري جروب</div>
+                <div style={{ fontSize: '0.75rem', color: 'var(--gold-dark)' }}>لصناعة معدات الرخام</div>
               </div>
             </div>
             <button className="drawer-close-btn" onClick={() => setMobileMenuOpen(false)} aria-label="إغلاق">✕</button>
