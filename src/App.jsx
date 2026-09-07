@@ -91,6 +91,7 @@ const PRODUCTS = [
 const ARTICLES = [
   {
     id: 'achievements',
+    image: '/saw-13.jpg',
     title: 'مسيرة وإنجازات الشركة الإسلامية في النهوض بصناعة الرخام والجرانيت وتحدي الاستيراد الأوروبي',
     category: 'history',
     categoryName: 'إنجازات وريادة',
@@ -125,6 +126,7 @@ const ARTICLES = [
   },
   {
     id: 'biography',
+    image: '/eng-ahmed.jpg',
     title: 'تاريخ وتطور الشركة الإسلامية: رحلة 20 عاماً في قلب الصناعة الثقيلة وتجهيز كبرى المصانع',
     category: 'bio',
     categoryName: 'السيرة الذاتية',
@@ -150,6 +152,7 @@ const ARTICLES = [
   },
   {
     id: 'buying-guide',
+    image: '/crane-yard.jpg',
     title: 'دليل المستثمر لمصانع الرخام والجرانيت 2026: دراسة جدوى، الأسعار، واختيار الماكينات',
     category: 'guide',
     categoryName: 'دليل وتوجيهات',
@@ -181,6 +184,7 @@ const ARTICLES = [
   },
   {
     id: 'maintenance-tips',
+    image: '/machine1.jpg',
     title: 'أسرار الصيانة الوقائية لمعدات وأوناش الرخام: 5 قواعد ذهبية لتفادي الأعطال المفاجئة',
     category: 'guide',
     categoryName: 'نصائح صيانة',
@@ -210,6 +214,7 @@ const ARTICLES = [
   },
   {
     id: 'best-marble-machines-company',
+    image: '/polisher-10.jpg',
     title: 'كيف تختار أفضل شركة لصناعة وتوريد ماكينات الرخام في مصر لعام 2026؟',
     category: 'guide',
     categoryName: 'دليل وتوجيهات',
@@ -527,7 +532,7 @@ export default function App() {
 
               {/* Featured Image in Article */}
               <div className="article-featured-image-wrap">
-                <img src="/hero-banner.jpg" alt={activeArticle.title} />
+                <img src={activeArticle.image || "/hero-banner.jpg"} alt={activeArticle.title} />
                 <div className="image-caption">تصنيع وابتكار ماكينات الرخام والجرانيت الثقيلة بمصانع الشركة الإسلامية</div>
               </div>
 
@@ -980,6 +985,7 @@ export default function App() {
                 {filteredArticles.map((article) => (
                   <article key={article.id} className="article-card">
                     <div className="article-header">
+                      <img src={article.image || "/hero-banner.jpg"} alt={article.title} style={{width: "100%", height: "200px", objectFit: "cover", borderRadius: "12px 12px 0 0", marginBottom: "16px"}} />
                       <span className="article-tag">{article.categoryName}</span>
                       <span className="article-read-time">{article.readTime}</span>
                     </div>
