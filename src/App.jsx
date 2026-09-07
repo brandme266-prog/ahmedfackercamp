@@ -682,7 +682,7 @@ export default function App() {
                 
                 <h1 className="hero-headline">
                   <span className="gradient-text">فكري جروب</span><br />
-                  أفضل مصنع مكن رخام وجرانيت في مصر
+                  أفضل مصنع مكن رخام وجرانيت واوناش في مصر والوطن العربي
                 </h1>
 
                 <p className="hero-description">
