@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "ahmedfackercamp",
+  "account_id": "afc9250463a70004b63c2f73fb75cada",
   "compatibility_date": "2026-08-31",
   "observability": {
     "enabled": true
