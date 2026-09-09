@@ -74,7 +74,7 @@ export default function HomePage() {
 
           <div className="hero-card">
             <div className="hero-card-img-wrap">
-              <img src="/saw-13.webp" alt="ماكينة نشر الجرانيت 13 أسطوانة" width="400" height="280" loading="eager" />
+                <img src="/saw-13.webp" alt="ماكينة نشر الجرانيت 13 أسطوانة" width="400" height="322" loading="eager" />
               <div className="hero-card-badge">الماكينة الأكثر طلباً ⭐</div>
             </div>
             <h2 className="hero-card-title">ماكينة نشر الجرانيت 13 أسطوانة</h2>
@@ -195,7 +195,7 @@ export default function HomePage() {
             {ARTICLES.slice(0, 3).map((article) => (
               <article key={article.id} className="article-card">
                 <div className="article-card-image-wrap">
-                  <img src={article.image || "/hero-banner.webp"} alt={article.title} loading="lazy" width="400" height="250" />
+                  <img src={article.image || "/hero-banner.webp"} alt={article.title} loading="lazy" width="400" height="533" />
                   <span className="article-tag">{article.categoryName}</span>
                 </div>
                 <div className="article-card-body">
