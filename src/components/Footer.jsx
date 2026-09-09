@@ -60,6 +60,9 @@ export default function Footer() {
               <a href="tel:01001163633" style={{ color: '#f1f5f9', fontWeight: '700', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 📞 01001163633
               </a>
+              <a href="tel:01090080915" style={{ color: '#f1f5f9', fontWeight: '700', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                📞 01090080915
+              </a>
             </div>
           </div>
         </div>
