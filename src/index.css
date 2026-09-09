@@ -2069,3 +2069,7 @@ html, body {
 img, video, iframe, canvas { 
   max-width: 100%; 
 }
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
