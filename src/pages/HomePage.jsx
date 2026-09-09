@@ -13,7 +13,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section id="hero" className="hero-section">
         <div className="hero-bg-media">
-          <img src="/hero-banner.webp" alt="مصنع ماكينات الرخام فكري جروب" className="hero-bg-img" width="1920" height="1080" fetchPriority="high" />
+          <img src="/hero-banner.webp" alt="مصنع ماكينات الرخام فكري جروب" className="hero-bg-img" width="1023" height="1280" fetchPriority="high" />
         </div>
         <div className="hero-gradient-overlay"></div>
 
