@@ -8,10 +8,10 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-about">
             <Link to="/" className="brand-logo" style={{ textDecoration: 'none' }}>
-              <img src="/logo.png" alt="فكري جروب" />
+              <img src="/logo.webp" alt="فكري جروب" width="48" height="48" />
               <div className="brand-title-wrap">
                 <span className="brand-title" style={{ color: '#fff' }}>فكري جروب</span>
-                <span className="brand-sub">Islamic Industrial Machinery Group</span>
+                <span className="brand-sub" style={{ color: '#f59e0b' }}>Islamic Industrial Machinery Group</span>
               </div>
             </Link>
             <p>

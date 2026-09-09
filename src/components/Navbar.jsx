@@ -54,7 +54,7 @@ export default function Navbar() {
         <div className="container navbar-inner">
           <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '14px', textDecoration: 'none' }}>
             <div className="brand-logo">
-              <img src="/logo.png" alt="فكري جروب - صناعة ماكينات الرخام والجرانيت" />
+              <img src="/logo.webp" alt="فكري جروب - صناعة ماكينات الرخام والجرانيت" width="40" height="40" />
               <div className="brand-title-wrap">
                 <span className="brand-title">فكري جروب</span>
                 <span className="brand-sub">لصناعة ماكينات الرخام والجرانيت والأوناش في مصر والوطن العربي</span>
@@ -93,7 +93,7 @@ export default function Navbar() {
         <aside className={`mobile-drawer ${mobileMenuOpen ? 'active' : ''}`} onClick={(e) => e.stopPropagation()}>
           <div className="drawer-header">
             <Link to="/" className="brand-logo" onClick={() => setMobileMenuOpen(false)}>
-              <img src="/logo.png" alt="لوجو فكري جروب" style={{ height: '40px' }} />
+              <img src="/logo.webp" alt="لوجو فكري جروب" style={{ height: '40px' }} width="40" height="40" />
               <div>
                 <div style={{ fontWeight: '800', color: 'var(--text-main)', fontSize: '1.1rem' }}>فكري جروب</div>
                 <div style={{ fontSize: '0.75rem', color: 'var(--gold-dark)' }}>لصناعة معدات الرخام</div>
