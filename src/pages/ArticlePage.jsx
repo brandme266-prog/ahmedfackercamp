@@ -52,7 +52,7 @@ export default function ArticlePage() {
             <h1 className="article-main-title">{article.title}</h1>
 
             <div className="article-author-card">
-              <img src="/hero-banner.jpg" alt={article.author} className="author-avatar" width="80" height="80" />
+              <img src="/hero-banner.webp" alt={article.author} className="author-avatar" width="80" height="80" />
               <div className="author-details">
                 <div className="author-name">{article.author}</div>
                 <div className="author-role">{article.authorRole}</div>
@@ -66,7 +66,7 @@ export default function ArticlePage() {
 
           {/* Featured Image in Article */}
           <div className="article-featured-image-wrap">
-            <img src={article.image || "/hero-banner.jpg"} alt={article.title} width="800" height="400" />
+            <img src={article.image || "/hero-banner.webp"} alt={article.title} width="800" height="400" />
             <div className="image-caption">تصنيع وابتكار ماكينات الرخام والجرانيت الثقيلة بمصانع فكري جروب</div>
           </div>
 
@@ -123,7 +123,7 @@ export default function ArticlePage() {
           {/* Founder Profile Box */}
           <div className="sidebar-widget">
             <div style={{ textAlign: 'center', marginBottom: '16px' }}>
-              <img src="/hero-banner.jpg" alt="فكري جروب" style={{ width: '110px', height: '110px', borderRadius: '50%', objectFit: 'cover', margin: '0 auto 12px', display: 'block', border: '3px solid var(--gold-primary)' }} width="110" height="110" />
+              <img src="/hero-banner.webp" alt="فكري جروب" style={{ width: '110px', height: '110px', borderRadius: '50%', objectFit: 'cover', margin: '0 auto 12px', display: 'block', border: '3px solid var(--gold-primary)' }} width="110" height="110" />
               <h4 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--text-main)", marginBottom: "4px" }}>فكري جروب</h4>
               <div style={{ fontSize: "0.85rem", color: "var(--gold-dark)" }}>رائد صناعة الماكينات في مصر والوطن العربي</div>
             </div>
@@ -135,7 +135,7 @@ export default function ArticlePage() {
           <div className="sidebar-widget featured-product-widget">
             <span className="section-badge" style={{ marginBottom: '10px', display: 'inline-block' }}>ماكينة اشتهر ⭐</span>
             <div style={{ borderRadius: '10px', overflow: 'hidden', height: '160px', marginBottom: '14px' }}>
-              <img src="/saw-13.jpg" alt="ماكينة نشر 13 أسطوانة" style={{ width: '100%', height: '100%', objectFit: 'cover' }} width="300" height="160" />
+              <img src="/saw-13.webp" alt="ماكينة نشر 13 أسطوانة" style={{ width: '100%', height: '100%', objectFit: 'cover' }} width="300" height="160" />
             </div>
             <h4 style={{ fontSize: "1.1rem", fontWeight: "700", color: "var(--text-main)", marginBottom: "8px" }}>ماكينة نشر الجرانيت 13 أسطوانة</h4>
             <p style={{ fontSize: '0.88rem', color: 'var(--text-muted)', marginBottom: '16px' }}>أعلى إنتاجية يومية لمصنعك مع نظام حمام الزيت.</p>
