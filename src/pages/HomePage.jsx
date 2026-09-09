@@ -74,7 +74,7 @@ export default function HomePage() {
 
           <div className="hero-card">
             <div className="hero-card-img-wrap">
-              <img src="/saw-13.webp" alt="ماكينة نشر الجرانيت 13 أسطوانة" width="400" height="300" loading="lazy" />
+              <img src="/saw-13.webp" alt="ماكينة نشر الجرانيت 13 أسطوانة" width="400" height="280" loading="eager" />
               <div className="hero-card-badge">الماكينة الأكثر طلباً ⭐</div>
             </div>
             <h2 className="hero-card-title">ماكينة نشر الجرانيت 13 أسطوانة</h2>
