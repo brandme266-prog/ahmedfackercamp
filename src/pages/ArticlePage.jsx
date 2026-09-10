@@ -66,7 +66,7 @@ export default function ArticlePage() {
 
           {/* Featured Image in Article */}
           <div className="article-featured-image-wrap">
-            <img src={article.image || "/hero-banner.webp"} alt={article.title} width="800" height="1067" />
+            <img src={article.image || "/hero-banner.webp"} alt={article.title} width="600" height="800" />
             <div className="image-caption">تصنيع وابتكار ماكينات الرخام والجرانيت الثقيلة بمصانع فكري جروب</div>
           </div>
 
@@ -135,7 +135,7 @@ export default function ArticlePage() {
           <div className="sidebar-widget featured-product-widget">
             <span className="section-badge" style={{ marginBottom: '10px', display: 'inline-block' }}>ماكينة اشتهر ⭐</span>
             <div style={{ borderRadius: '10px', overflow: 'hidden', height: '160px', marginBottom: '14px' }}>
-              <img src="/saw-13.webp" alt="ماكينة نشر 13 أسطوانة" style={{ width: '100%', height: '100%', objectFit: 'cover' }} width="903" height="729" />
+              <img src="/saw-13.webp" alt="ماكينة نشر 13 أسطوانة" style={{ width: '100%', height: '100%', objectFit: 'cover' }} width="500" height="400" />
             </div>
             <h4 style={{ fontSize: "1.1rem", fontWeight: "700", color: "var(--text-main)", marginBottom: "8px" }}>ماكينة نشر الجرانيت 13 أسطوانة</h4>
             <p style={{ fontSize: '0.88rem', color: 'var(--text-muted)', marginBottom: '16px' }}>أعلى إنتاجية يومية لمصنعك مع نظام حمام الزيت.</p>

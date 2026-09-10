@@ -50,7 +50,7 @@ export default function ArticlesPage() {
           {filteredArticles.map((article) => (
             <article key={article.id} className="article-card">
               <div className="article-card-image-wrap">
-                <img src={article.image || "/hero-banner.webp"} alt={article.title} loading="lazy" width="400" height="533" />
+                <img src={article.image || "/hero-banner.webp"} alt={article.title} loading="lazy" width="600" height="800" />
                 <span className="article-tag">{article.categoryName}</span>
               </div>
               <div className="article-card-body">

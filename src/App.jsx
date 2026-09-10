@@ -7,8 +7,8 @@ import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import WhatsAppWidget from './components/WhatsAppWidget.jsx';
 import MobileActionBar from './components/MobileActionBar.jsx';
+import HomePage from './pages/HomePage.jsx';
 
-const HomePage = lazy(() => import('./pages/HomePage.jsx'));
 const ProductsPage = lazy(() => import('./pages/ProductsPage.jsx'));
 const FeaturesPage = lazy(() => import('./pages/FeaturesPage.jsx'));
 const AboutPage = lazy(() => import('./pages/AboutPage.jsx'));
@@ -27,11 +27,7 @@ function ScrollToTop() {
 }
 
 function PageLoader() {
-  return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '60vh' }}>
-      <div style={{ width: '40px', height: '40px', border: '4px solid #1e293b', borderTopColor: 'var(--gold)', borderRadius: '50%', animation: 'spin 0.8s linear infinite' }} />
-    </div>
-  );
+  return null;
 }
 
 export default function App() {
